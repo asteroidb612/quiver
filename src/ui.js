@@ -5081,7 +5081,7 @@ class Panel {
             new DOM.Element("label").add("Export: ")
         ).add(
             // The shareable link button.
-            new DOM.Element("button").add("Shareable link")
+            new DOM.Element("button").add("Shar-eable link")
                 .listen("click", () => {
                     display_port_pane("export", "base64");
                 })
